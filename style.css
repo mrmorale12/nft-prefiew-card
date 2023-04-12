@@ -1,0 +1,124 @@
+.main {
+    width:100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+
+}
+
+.container {
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    border-radius: 15px;
+
+}
+
+.equilibrium {
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    border-radius: 8px;
+}
+
+.icons {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110.82px;
+    margin-bottom: 24px;
+}
+
+.eth {
+    display: inline;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #00FFF8;
+}
+
+.days {
+    display: inline;
+    font-family: 'outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;
+}
+
+.ethicon {
+    margin-right: 6.48px;
+}
+
+.clock {
+    margin-right: 9.03px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    margin-left: 24px;
+    
+}
+
+.firsttext {
+    margin: 0 24px 16px 24px;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    color: #fff;
+}
+
+.secondtext {
+    margin: 0 24px 24px 24px;
+    font-family: 'outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.line {
+    margin-bottom: 16px;
+    width: 302px;
+    height: 1px;
+    background-color: #2E405A;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.creation {
+    font-family: 'outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #fff;
+}
+
+span {
+    color: #8BACD9;
+}
+
+.left {
+    display: flex;
+
+}
+
+.right {
+    display: flex; 
+
+}
+
