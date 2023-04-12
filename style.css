@@ -16,11 +16,37 @@
 
 }
 
-.equilibrium {
+.box {
     width: 302px;
     height: 302px;
+    background-color: #00FFF8;
     margin: 24px;
+    position:relative;
+    border-radius: 11px;
+    cursor: pointer;
+    
+}
+
+.view {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.equilibrium {
+    width: 100%;
+    margin: 0;
     border-radius: 8px;
+}
+
+.box:hover .view {
+    display: block;
+}
+
+.box:hover .equilibrium {
+    opacity: 50%;
 }
 
 .icons {
